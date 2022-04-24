@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatiable" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/0ac8e80cd2.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+	<title>Socialbook</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<nav>
+		<div class="nav-left">
+			<img src="image/icon.ico" class="logo">
+			<ul>
+				<li><i class="fa-solid fa-bell"></i></li>
+				<li><i class="fa-solid fa-envelope"></i></li>
+				<li><i class="fa-solid fa-video"></i></li>
+			</ul>
+		</div>
+		<div class="nav-right">
+
+			<div class="search-box">
+            <i class="fa-solid fa-magnifying-glass-arrow-right"></i> 
+            <input type="text" placeholder="search">
+			</div>
+			<div class="nav-user-icon online" onclick="settingsMenuToggle()">
+				<img src="image/bn.jfif">
+			</div>
+
+		</div>
+       <!-------------------settings-menu------->
+        <div class="settings-menu">
+         <div class="settings-menu-inner">
+        	  <div class="user-profile">
+         		<img src="image/me1.jpg">
+         		<div>
+         			<p>Sochima</p>
+         			<a href="#">See your profile</a>
+         		</div>
+         	  </div>
+         	<hr>
+            <div class="user-profile">
+         		<i class="fa-solid fa-comment-dots"></i>
+         		<div>
+         			<p>Give Feedback</p>
+         			<a href="#">Help us to improve the new design</a>
+         		</div>
+        	</div>
+        	<hr>
+        	<div class="settings-links">
+        		<i class="fa-solid fa-gear" class="settings-icon"></i>
+        		<a href="#">Settings & Privacy <i class="fa-solid fa-chevron-right"
+        			width="10px"></i></a>
+        	</div>
+        	<div class="settings-links">
+        		<i class="fa-solid fa-circle-question" class="settings-icon"></i> 
+        		<a href="#">Help & Support <i class="fa-solid fa-chevron-right"
+        			width="10px"></i></a>
+        	</div>
+        	<div class="settings-links">
+        		<i class="fa-solid fa-moon" class="settings-icon"></i>
+        		<a href="#">Display & Accessibility <i class="fa-solid fa-chevron-right"
+        			width="10px"></i></a>
+        	</div>
+        	<div class="settings-links">
+        		<i class="fa-solid fa-right-from-bracket" class="settings-icon"></i> 
+        		<a href="#">logout <i class="fa-solid fa-chevron-right"
+        			width="10px"></i></a>
+        	</div>
+
+         </div>
+        </div>
+
+	</nav>
+
+    <div class="container">
+     <!------ left-sidebar--------------->
+    	<div class="left-sidebar">
+    		<div class="imp-links">
+    			<a href="#"><i class="fa-solid fa-newspaper"></i> Latest News</a>
+    			<a href="#"><i class="fa-solid fa-user-group"></i> Friends</a>
+    			<a href="#"><i class="fa-solid fa-people-group"></i> Groups</a>
+    			<a href="#"><i class="fa-solid fa-cart-plus"></i></i> marketplace</a>
+    			<a href="#"><i class="fa-brands fa-youtube"></i>watch</a>
+    			<a href="#">See More</a>
+    		</div>
+    		<div class="shortcut-links">
+    			<p>Your Shortcuts</p>
+    			<a href="#"><img src="image/hu.jfif">Web Developers</a>
+    			<a href="#"><img src="image/by.jfif">Web Design course</a>
+                <a href="#"><img src="image/br.jfif">Full Stack Development</a>
+                <a href="#"><img src="image/bt.jfif">Website Experts</a>
+    		</div>
+    	</div>
+     <!------ main-content--------------->
+    	<div class="main-content">
+    		
+         <div class="story-gallery">
+         	<div class="story story1">
+         		<img src="image/lo.png">
+         		<p>Post Story</p>
+         	</div>
+         	<div class="story story2">
+         		<img src="image/me1.jpg">
+         		<p>Sochima</p>
+         	</div>
+         	<div class="story story3">
+         		<img src="image/bf.jfif">
+         		<p>Peter</p>
+         	</div>
+         	<div class="story story4">
+         		<img src="image/bg.jfif">
+         		<p>Dan Tee</p>
+         	</div>
+         	<div class="story story5">
+         		<img src="image/bu.jfif">
+         		<p>Kelly Kin</p>
+         	</div>
+         </div>
+
+
+         <div class="write-post-container">
+         	<div class="user-profile">
+         		<img src="image/me1.jpg">
+         		<div>
+         			<p>Sochima</p>
+         			<small>Public <i class="fa-solid fa-sort-down"></i></small>
+         		</div>
+         	</div>
+
+         <div class="post-input-container">
+         		<textarea rows="3" placeholder="What's on your mind dear"></textarea>
+         		<div class="add-post-links">
+         			<a href="#"><i class="fa-solid fa-video"></i>Live Video</a>
+         			<a href="#"><i class="fa-solid fa-camera"></i>Photo/Video</a>
+         			<a href="#"><i class="fa-solid fa-face-smile"></i>Feeling/Activity</a>
+         		</div>
+         	</div>
+         </div>
+
+         <div class="post-container">
+         	<div class="post-row">
+         	<div class="user-profile">
+         		<img src="image/me1.jpg">
+         		<div>
+         			<p>Sochima</p>
+         			<span>May 29 2022,00:09pm</span>
+         		</div>
+         	</div>
+         	<a href="#"><i class="fas fa-ellipsis-v"></i></a>
+         </div>
+
+         	<p class="post-text">Soccer Players Rendering Football Players 3d Computer Graphics, 3d Rendering, Soccer Player, Ball, Blue <span>Contact Us </span><a href="#">#Website Developer </a> <a href="#">#Sochima </a></p>
+         	<img src="image/mn.png" class="post-img">
+
+            <div class="post-row">
+            	<div class="activity-icons">
+            		<div><i class="fa-solid fa-thumbs-up"></i>900</div>
+            		<div><i class="fa-solid fa-message"></i>400</div>
+            		<div><i class="fa-solid fa-share"></i>90</div>
+            	</div>
+            	<div class="post-profile-icon">
+            		<img src="image/me1.jpg"><i class="fa-solid fa-sort-down"></i>
+            	</div>
+            </div>
+
+         </div>
+         <!-------second post container----------->
+
+         <div class="post-container">
+         	<div class="post-row">
+         	<div class="user-profile">
+         		<img src="image/me1.jpg">
+         		<div>
+         			<p>Sochima</p>
+         			<span>May 29 2022,00:09pm</span>
+         		</div>
+         	</div>
+         	<a href="#"><i class="fas fa-ellipsis-v"></i></a>
+         </div>
+
+         	<p class="post-text">We Play Out Our Stress <span>World Cup Dreams </span><a href="#">#Website Developer </a> <a href="#">#Sochima </a></p>
+         	<img src="image/ol.png" class="post-img">
+
+            <div class="post-row">
+            	<div class="activity-icons">
+            		<div><i class="fa-solid fa-thumbs-up"></i>1m</div>
+            		<div><i class="fa-solid fa-message"></i>1k</div>
+            		<div><i class="fa-solid fa-share"></i>3k</div>
+            	</div>
+            	<div class="post-profile-icon">
+            		<img src="image/me1.jpg"><i class="fa-solid fa-sort-down"></i>
+            	</div>
+            </div>
+
+         </div>
+          <!-------------3rd post-container------>
+
+         <div class="post-container">
+         	<div class="post-row">
+         	<div class="user-profile">
+         		<img src="image/me1.jpg">
+         		<div>
+         			<p>Sochima</p>
+         			<span>May 29 2022,00:09pm</span>
+         		</div>
+         	</div>
+         	<a href="#"><i class="fas fa-ellipsis-v"></i></a>
+         </div>
+
+         	<p class="post-text">Material Things, So Beautiful of her.The socks nobody can get enough of in the World! Seniors don’t go anywhere without them...<span>Sexy City </span><a href="#">#Website Developer </a> <a href="#">#Sochima </a></p>
+         	<img src="image/df5.jpg" class="post-img">
+
+            <div class="post-row">
+            	<div class="activity-icons">
+            		<div><i class="fa-solid fa-thumbs-up"></i>10m</div>
+            		<div><i class="fa-solid fa-message"></i>3k</div>
+            		<div><i class="fa-solid fa-share"></i>4k</div>
+            	</div>
+            	<div class="post-profile-icon">
+            		<img src="image/me1.jpg"><i class="fa-solid fa-sort-down"></i>
+            	</div>
+            </div>
+
+         </div>
+         <!------------4th post-container------>
+
+         <div class="post-container">
+         	<div class="post-row">
+         	<div class="user-profile">
+         		<img src="image/me1.jpg">
+         		<div>
+         			<p>Sochima</p>
+         			<span>May 29 2022,00:09pm</span>
+         		</div>
+         	</div>
+         	<a href="#"><i class="fas fa-ellipsis-v"></i></a>
+         </div>
+
+         	<p class="post-text">The music videos of British all-girl band ‘Little Mix’ is inarguably one of the hottest things you will see on the internet, ever!<span>Dance City </span><a href="#">#Website Developer </a> <a href="#">#Sochima </a></p>
+         	<img src="image/df2.jpg" class="post-img">
+
+            <div class="post-row">
+            	<div class="activity-icons">
+            		<div><i class="fa-solid fa-thumbs-up"></i>8m</div>
+            		<div><i class="fa-solid fa-message"></i>7k</div>
+            		<div><i class="fa-solid fa-share"></i>5k</div>
+            	</div>
+            	<div class="post-profile-icon">
+            		<img src="image/me1.jpg"><i class="fa-solid fa-sort-down"></i>
+            	</div>
+            </div>
+
+         </div>
+        <!-------------5th post-container----->
+         <div class="post-container">
+         	<div class="post-row">
+         	<div class="user-profile">
+         		<img src="image/me1.jpg">
+         		<div>
+         			<p>Sochima</p>
+         			<span>May 29 2022,00:09pm</span>
+         		</div>
+         	</div>
+         	<a href="#"><i class="fas fa-ellipsis-v"></i></a>
+          </div>
+
+         	<p class="post-text">Our Airtel Network Advert <span>Beauty </span><a href="#">#Website Developer </a> <a href="#">#Sochima </a></p>
+         	<img src="image/df6.jfif" class="post-img">
+
+            <div class="post-row">
+            	<div class="activity-icons">
+            		<div><i class="fa-solid fa-thumbs-up"></i>20m</div>
+            		<div><i class="fa-solid fa-message"></i>9k</div>
+            		<div><i class="fa-solid fa-share"></i>7k</div>
+            	</div>
+            	<div class="post-profile-icon">
+            		<img src="image/me1.jpg"><i class="fa-solid fa-sort-down"></i>
+            	</div>
+            </div>
+
+         </div>
+         <button type="button" class="load-more-btn">Load More</button>
+    	 </div>
+
+    	 
+     <!------ right-sidebar--------------->
+    	<div class="right-sidebar">
+    		<div class="sidebar-title">
+    			<h4>Events</h4>
+    			<a href="#">See All</a>
+    		</div>
+           
+           <div class="events">
+           	<div class="left-events">
+           		<h3>20</h3>
+           		<span>May</span>
+           	</div>
+           	<div class="right-events">
+           		<h4>Social Media</h4>
+           		<p><i class="fa-solid fa-location-dot"></i>Adolphus Sochima Tech Park</p>
+           		<a href="#">More Info</a>
+           	</div>
+           </div>
+           <div class="events">
+           	<div class="left-events">
+           		<h3>29</h3>
+           		<span>june</span>
+           	</div>
+           	<div class="right-events">
+           		<h4>Btc Site </h4>
+           		<p><i class="fa-solid fa-location-dot"></i>Adolphus Sochima Tech Park</p>
+           		<a href="#">More Info</a>
+           	</div>
+           </div>
+            
+            <div class="right-sidebar">
+    		<div class="sidebar-title">
+    			<h4>Advertisement</h4>
+    			<a href="#">Close</a>
+    		</div>
+            <img src="image/ad.jfif" class="sidebar-ads">
+
+            <div class="right-sidebar">
+    		<div class="sidebar-title">
+    			<h4>Conversation</h4>
+    			<a href="#">Hide Chat</a>
+    		</div>
+
+            <div class="online-list">
+            	<div class="online">
+            		<img src="image/me1.jpg">
+            	</div>
+            	<p>Adolphus Sochima</p>  	
+            </div>
+            <div class="online-list">
+            	<div class="online">
+            		<img src="image/ok.jpg">
+            	</div>
+            	<p>Ejike Umeojiakor</p>  	
+            </div>
+            <div class="online-list">
+            	<div class="online">
+            		<img src="image/jb.jpg">
+            	</div>
+            	<p>Johnbosco Okeke</p>  	
+            </div>
+            <div class="online-list">
+            	<div class="online">
+            		<img src="image/bg.jfif">
+            	</div>
+            	<p> Jan Dan</p>  	
+            </div>
+
+
+
+
+    	</div>
+    	
+<div>
+ 	<p>Copyright 2022  Umeojiakor Adolphus Sochima Website</p>
+</div>
+
+
+    </div> 
+
+  
+
+
+</body>
+</html>
